@@ -640,7 +640,7 @@ p{
         display: flex;
         flex-direction: column;
         position: absolute;
-        width: 60%;
+        width: 28%;
         top: 70px;
         background-color: silver;
         transition: all 0.4s ease;
@@ -772,10 +772,7 @@ p{
     flex-direction: column;
   }
   .contact-section{
-    height: 950px;
-  }
-  #f1{
-    margin-left: 201px;
+    height: 670px;
   }
   .image12{
     width: 430px;
@@ -868,5 +865,8 @@ p{
     }
     .image2{
         width: auto;
+    }
+    .links.active{
+        width: 50%;
     }
 }
