@@ -204,8 +204,8 @@ a{
 }
 .para2{
     margin-bottom: 50px;
-    color: blue;
     text-decoration: underline;
+    color: blue;
     font-style: italic;
 }
 .database{
@@ -244,7 +244,6 @@ a{
 .skils-section{
     height: 560px;
     border-style: groove;
-    /* background-color: rgb(16, 7, 33); */
     background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
 }
 .skils{
@@ -292,7 +291,6 @@ a{
     font-size: 25px;
 }
 .para4{
-    color: blue;
     font-style: oblique;
     font-size: 20px;
 }
@@ -331,7 +329,6 @@ a{
     font-style: italic;
 }
 .para5{
-  color: blue;
   font-size: 20px;
   font-style: oblique;
 }
@@ -363,7 +360,6 @@ a{
     font-style: italic;
 }
 .para6{
-  color: blue;
   font-size: 20px;
   font-style: oblique;
 }
@@ -403,7 +399,6 @@ a{
 .para7{
     font-size: 20px;
     font-style: oblique;
-    color: blue;
 }
 .php-cont{
     display: flex;
@@ -442,7 +437,6 @@ a{
 .para8{
     font-size: 20px;
     font-style: oblique;
-    color: blue;
 }
 .mysql-cont{
     color: white;
@@ -649,7 +643,6 @@ p{
         width: 50%;
         top: 70px;
         background-color: silver;
-        transform: translateX(-3px);
         transition: all 0.4s ease;
         background-color: #0f0c29;
 
@@ -872,5 +865,8 @@ p{
     }
     footer{
         width: 100vh;
+    }
+    .image2{
+        width: auto;
     }
 }
