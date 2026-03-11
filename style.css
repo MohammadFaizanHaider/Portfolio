@@ -62,7 +62,6 @@ nav{
 }
 main{
     background-color: rgba(64, 193, 236, 0.669);
-    width: 100%;
 }
 
             /* ------------Main-section------------- */
@@ -835,7 +834,9 @@ hr{
 }
 
 @media (max-width: 480px){
-
+    main{
+        width: 100%;
+    }    
     .heading1,
     .heading2,
     .heading11,
@@ -848,23 +849,7 @@ hr{
     }
     .main-section{
         height: 556px;
-        /* width: 100%; */
     }
-    /* .about-section{
-        width: 100%;
-    }
-    .services-section{
-        width: 100%;
-    }
-    .skils-section{
-       width: 100%;
-    }
-    .contact-section{
-        width: 100%;
-    }
-    .project-section{
-        width: 100%;
-    } */
     .ma-se{
         font-size: 19px;
         margin-top: 0px;
@@ -892,7 +877,12 @@ hr{
         width: 158%;
     }
     .c_form{
-        margin-right: 113px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #f1{
+        width: 306px;
     }
     input{
         width: 90%;
@@ -917,7 +907,7 @@ hr{
     footer{
         height: auto;
         padding: 30px 0;
-        /* width: 100%; */
+        width: 100%;
     }
 
     .copy_rights{
