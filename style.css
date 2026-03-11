@@ -833,7 +833,7 @@ hr{
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 400px){
     main{
         width: 100%;
     }    
@@ -897,7 +897,7 @@ hr{
         font-size: 22px;
     }
     .con_p{
-        font-size: 13px;
+        font-size: 11px;
     }
     .pro1_i{
         width: 77%;
