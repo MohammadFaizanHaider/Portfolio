@@ -839,6 +839,9 @@ hr{
         font-size: 28px;
         text-align: center;
     }
+    nav{
+        width: 100%;
+    }
     .main-section{
         height: 556px;
         width: 100%;
@@ -850,7 +853,7 @@ hr{
         width: 100%;
     }
     .skils-section{
-        width: 100%;
+       width: 100%;
     }
     .contact-section{
         width: 100%;
