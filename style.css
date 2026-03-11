@@ -925,6 +925,10 @@ hr{
         font-size: 14px;
         padding: 0 10px;
     }
+    .contact-icons{
+        gap: 8px;
+        width: auto;
+    }
 }
 
 
